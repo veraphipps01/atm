@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+      crossorigin
+    ></script>
+
+    <title>ATM</title>
+  </head>
+
+  <body style="color: white; text-align: center; align-items: center;">
+
+    <!-- You will put your React component inside this div. -->
+
+    <div class="header shadows pb-5 mb-5" style="text-align: right;">YOUR ATM</div>
+    <div style="margin:0px;padding:0px;width:100%" id="root"></div>
+
+    <main class="parent" >     
+      <!-- Load React. -->
+      <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+      <script
+        src="https://unpkg.com/react@17/umd/react.development.js"
+        crossorigin
+      ></script>
+      <script
+        src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+        crossorigin
+      ></script>
+    
+    </main>
+
+
+    <!-- Load our React component. -->
+    <!--<script type="text/jsx" src="./balance.jsx"></script>-->
+    <script type="text/jsx" src="./atm.jsx"></script>
+    <script type="text/jsx" src=""></script>
+  </body>
+</html>
